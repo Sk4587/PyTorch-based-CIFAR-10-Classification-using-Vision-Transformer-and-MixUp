@@ -1,5 +1,5 @@
 
-# Applied Deep Learning - Coursework Project
+# PyTorch-based CIFAR-10 Classification using Vision Transformer and MixUp
 
 This project is part of the coursework for **COMP0197: Applied Deep Learning** at University College London. The work is supervised by [Dr. Yipeng Hu](https://www.linkedin.com/in/huyipeng/).
 
