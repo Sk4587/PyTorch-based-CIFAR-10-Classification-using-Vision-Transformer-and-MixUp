@@ -1,0 +1,175 @@
+Mode: All
+
+
+
+#################### Start ####################
+
+
+
+Device Name: NVIDIA GeForce RTX 4070 Laptop GPU
+Total Memory: 7.55 GB
+Memory Allocated: 0.00 GB
+Memory Reserved: 0.00 GB
+Loading datasets...
+Applying data augmentation and gaussian transformations to the training set...
+Datasets loaded successfully.
+
+
+
+#################### MixUp class demo ####################
+
+
+
+Mixing images using MixUp class demo...
+MixUp with sampling method 1 saved successfully as mixup/mixup_with_sampling_method_1.png
+MixUp with sampling method 2 saved successfully as mixup/mixup_with_sampling_method_2.png
+MixUp class demo completed successfully.
+
+
+
+#################### Training block Initiated ####################
+
+
+
+____________________Training____________________
+Vision Transformer with MixUp network with sampling method 1
+EPOCHS: 20, loss function: <class 'torch.nn.modules.loss.CrossEntropyLoss'>, optimizer: <class 'torch.optim.adamw.AdamW'>,Batch Size: 256, Dropout: 0.2
+
+
+
+Using Pretrained Weights as Initialization. Freezing the weights of initial layers and training the last few layers of the model.
+
+
+
+Epoch  1/20, Training Loss: 0.9055, Validation Loss: 0.1959, Validation Accuracy: 94.62%, Validation Precision: 0.9961, Validation F1-score: 0.9980, Learning Rate: 5e-05, Time per epoch: 132.52 s
+Epoch  2/20, Training Loss: 0.8029, Validation Loss: 0.2097, Validation Accuracy: 96.04%, Validation Precision: 0.9961, Validation F1-score: 0.9971, Learning Rate: 5e-05, Time per epoch: 132.83 s
+Epoch  3/20, Training Loss: 0.7515, Validation Loss: 0.1516, Validation Accuracy: 96.46%, Validation Precision: 0.9961, Validation F1-score: 0.9961, Learning Rate: 5e-05, Time per epoch: 133.23 s
+Epoch  4/20, Training Loss: 0.7249, Validation Loss: 0.1373, Validation Accuracy: 96.48%, Validation Precision: 0.9961, Validation F1-score: 0.9980, Learning Rate: 5e-05, Time per epoch: 133.23 s
+Epoch  5/20, Training Loss: 0.7400, Validation Loss: 0.1571, Validation Accuracy: 96.48%, Validation Precision: 0.9981, Validation F1-score: 0.9990, Learning Rate: 5e-05, Time per epoch: 133.13 s
+Epoch  6/20, Training Loss: 0.7173, Validation Loss: 0.1456, Validation Accuracy: 96.88%, Validation Precision: 0.9961, Validation F1-score: 0.9980, Learning Rate: 5e-05, Time per epoch: 133.16 s
+Learning rate changed from 5e-05 to 5e-06 on plateau of validation loss.
+Epoch  7/20, Training Loss: 0.7404, Validation Loss: 0.1453, Validation Accuracy: 96.30%, Validation Precision: 1.0000, Validation F1-score: 0.9990, Learning Rate: 5e-06, Time per epoch: 133.22 s
+Epoch  8/20, Training Loss: 0.6403, Validation Loss: 0.1239, Validation Accuracy: 97.10%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5e-06, Time per epoch: 133.46 s
+Epoch  9/20, Training Loss: 0.6242, Validation Loss: 0.1163, Validation Accuracy: 97.46%, Validation Precision: 1.0000, Validation F1-score: 0.9990, Learning Rate: 5e-06, Time per epoch: 133.00 s
+Epoch 10/20, Training Loss: 0.6359, Validation Loss: 0.1211, Validation Accuracy: 97.16%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5e-06, Time per epoch: 133.27 s
+Epoch 11/20, Training Loss: 0.6170, Validation Loss: 0.1197, Validation Accuracy: 97.30%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5e-06, Time per epoch: 133.23 s
+Learning rate changed from 5e-06 to 5.000000000000001e-07 on plateau of validation loss.
+Epoch 12/20, Training Loss: 0.6593, Validation Loss: 0.1208, Validation Accuracy: 97.18%, Validation Precision: 0.9981, Validation F1-score: 0.9990, Learning Rate: 5.000000000000001e-07, Time per epoch: 132.93 s
+Epoch 13/20, Training Loss: 0.5569, Validation Loss: 0.1185, Validation Accuracy: 97.18%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5.000000000000001e-07, Time per epoch: 133.14 s
+Epoch 14/20, Training Loss: 0.6035, Validation Loss: 0.1198, Validation Accuracy: 97.12%, Validation Precision: 0.9981, Validation F1-score: 0.9990, Learning Rate: 5.000000000000001e-07, Time per epoch: 133.20 s
+Learning rate changed from 5.000000000000001e-07 to 5.000000000000001e-08 on plateau of validation loss.
+Epoch 15/20, Training Loss: 0.6027, Validation Loss: 0.1197, Validation Accuracy: 97.32%, Validation Precision: 1.0000, Validation F1-score: 0.9990, Learning Rate: 5.000000000000001e-08, Time per epoch: 133.19 s
+Epoch 16/20, Training Loss: 0.5484, Validation Loss: 0.1245, Validation Accuracy: 96.90%, Validation Precision: 1.0000, Validation F1-score: 0.9980, Learning Rate: 5.000000000000001e-08, Time per epoch: 133.51 s
+Epoch 17/20, Training Loss: 0.6300, Validation Loss: 0.1151, Validation Accuracy: 97.16%, Validation Precision: 1.0000, Validation F1-score: 0.9990, Learning Rate: 5.000000000000001e-08, Time per epoch: 133.28 s
+Epoch 18/20, Training Loss: 0.5851, Validation Loss: 0.1219, Validation Accuracy: 97.20%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5.000000000000001e-08, Time per epoch: 133.41 s
+Epoch 19/20, Training Loss: 0.5908, Validation Loss: 0.1179, Validation Accuracy: 97.28%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5.000000000000001e-08, Time per epoch: 133.76 s
+Learning rate changed from 5.000000000000001e-08 to 5.000000000000002e-09 on plateau of validation loss.
+Epoch 20/20, Training Loss: 0.6659, Validation Loss: 0.1197, Validation Accuracy: 97.06%, Validation Precision: 1.0000, Validation F1-score: 0.9990, Learning Rate: 5.000000000000002e-09, Time per epoch: 133.58 s
+Training done.
+Total time elapsed: 2664.28 s
+Saving trained model as vision_transformer_with_mixup_sampling_method_1.pth in trained_models directory.
+Saving training results as training_results_with_mixup_sampling_method_1.csv in results directory.
+Model saved.
+____________________Training____________________
+Vision Transformer with MixUp network with sampling method 2
+EPOCHS: 20, loss function: <class 'torch.nn.modules.loss.CrossEntropyLoss'>, optimizer: <class 'torch.optim.adamw.AdamW'>,Batch Size: 256, Dropout: 0.2
+
+
+
+Using Pretrained Weights as Initialization. Freezing the weights of initial layers and training the last few layers of the model.
+
+
+
+Epoch  1/20, Training Loss: 1.2631, Validation Loss: 0.2886, Validation Accuracy: 94.32%, Validation Precision: 0.9980, Validation F1-score: 0.9980, Learning Rate: 5e-05, Time per epoch: 133.36 s
+Epoch  2/20, Training Loss: 1.0387, Validation Loss: 0.2232, Validation Accuracy: 95.78%, Validation Precision: 0.9980, Validation F1-score: 0.9971, Learning Rate: 5e-05, Time per epoch: 133.46 s
+Epoch  3/20, Training Loss: 1.0235, Validation Loss: 0.2005, Validation Accuracy: 96.56%, Validation Precision: 0.9942, Validation F1-score: 0.9971, Learning Rate: 5e-05, Time per epoch: 133.52 s
+Epoch  4/20, Training Loss: 0.9969, Validation Loss: 0.2042, Validation Accuracy: 96.28%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5e-05, Time per epoch: 133.52 s
+Epoch  5/20, Training Loss: 0.9266, Validation Loss: 0.2078, Validation Accuracy: 96.48%, Validation Precision: 0.9981, Validation F1-score: 0.9990, Learning Rate: 5e-05, Time per epoch: 133.29 s
+Epoch  6/20, Training Loss: 0.9735, Validation Loss: 0.1565, Validation Accuracy: 96.84%, Validation Precision: 0.9980, Validation F1-score: 0.9970, Learning Rate: 5e-05, Time per epoch: 133.44 s
+Epoch  7/20, Training Loss: 0.8754, Validation Loss: 0.1488, Validation Accuracy: 96.74%, Validation Precision: 0.9961, Validation F1-score: 0.9981, Learning Rate: 5e-05, Time per epoch: 133.38 s
+Epoch  8/20, Training Loss: 0.9061, Validation Loss: 0.1471, Validation Accuracy: 96.90%, Validation Precision: 0.9961, Validation F1-score: 0.9980, Learning Rate: 5e-05, Time per epoch: 133.35 s
+Epoch  9/20, Training Loss: 0.9149, Validation Loss: 0.1574, Validation Accuracy: 96.62%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5e-05, Time per epoch: 133.42 s
+Epoch 10/20, Training Loss: 0.9050, Validation Loss: 0.1945, Validation Accuracy: 96.94%, Validation Precision: 1.0000, Validation F1-score: 0.9990, Learning Rate: 5e-05, Time per epoch: 133.57 s
+Learning rate changed from 5e-05 to 5e-06 on plateau of validation loss.
+Epoch 11/20, Training Loss: 0.8719, Validation Loss: 0.1809, Validation Accuracy: 96.78%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5e-06, Time per epoch: 133.49 s
+Epoch 12/20, Training Loss: 0.8461, Validation Loss: 0.1473, Validation Accuracy: 97.34%, Validation Precision: 1.0000, Validation F1-score: 0.9990, Learning Rate: 5e-06, Time per epoch: 133.97 s
+Epoch 13/20, Training Loss: 0.8479, Validation Loss: 0.1411, Validation Accuracy: 97.22%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5e-06, Time per epoch: 133.39 s
+Epoch 14/20, Training Loss: 0.8754, Validation Loss: 0.1508, Validation Accuracy: 97.42%, Validation Precision: 0.9980, Validation F1-score: 0.9990, Learning Rate: 5e-06, Time per epoch: 133.10 s
+Epoch 15/20, Training Loss: 0.8533, Validation Loss: 0.1438, Validation Accuracy: 97.26%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5e-06, Time per epoch: 133.44 s
+Learning rate changed from 5e-06 to 5.000000000000001e-07 on plateau of validation loss.
+Epoch 16/20, Training Loss: 0.8148, Validation Loss: 0.1441, Validation Accuracy: 97.26%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5.000000000000001e-07, Time per epoch: 133.49 s
+Epoch 17/20, Training Loss: 0.8741, Validation Loss: 0.1442, Validation Accuracy: 97.28%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5.000000000000001e-07, Time per epoch: 133.05 s
+Epoch 18/20, Training Loss: 0.8673, Validation Loss: 0.1442, Validation Accuracy: 97.34%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5.000000000000001e-07, Time per epoch: 133.23 s
+Learning rate changed from 5.000000000000001e-07 to 5.000000000000001e-08 on plateau of validation loss.
+Epoch 19/20, Training Loss: 0.8551, Validation Loss: 0.1417, Validation Accuracy: 97.30%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5.000000000000001e-08, Time per epoch: 133.42 s
+Epoch 20/20, Training Loss: 0.8321, Validation Loss: 0.1405, Validation Accuracy: 97.44%, Validation Precision: 1.0000, Validation F1-score: 1.0000, Learning Rate: 5.000000000000001e-08, Time per epoch: 133.20 s
+Training done.
+Total time elapsed: 2668.08 s
+Saving trained model as vision_transformer_with_mixup_sampling_method_2.pth in trained_models directory.
+Saving training results as training_results_with_mixup_sampling_method_2.csv in results directory.
+Model saved.
+
+
+
+#################### Testing and Visualization block Initiated ####################
+
+
+
+Loading trained models...
+Model 1 (sampling method 1) loaded successfully.
+Model 2 (sampling method 2) loaded successfully.
+
+
+
+Visualizing results...
+
+____________________Testing____________________
+Test Results with sampling method 1:
+Test Loss: 0.1060
+Test Accuracy: 97.73%
+Test Precision: 0.9980
+Test F1-score: 0.9980
+Results saved successfully as results/result_with_sampling_method_1.png
+____________________Testing____________________
+Test Results with sampling method 2:
+Test Loss: 0.1369
+Test Accuracy: 97.69%
+Test Precision: 0.9990
+Test F1-score: 0.9985
+Results saved successfully as results/result_with_sampling_method_2.png
+--------------------Results--------------------
+Training Summary of model with sampling method 1:
+
+
+
+
+Training Summary of model with sampling method 2:
+
+
+
+
+--------------------Summary--------------------
+
+Training Summary:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Method               | Training Loss        | Validation Loss      | Validation Accuracy  | Validation Precision | Validation F1-score  | Total Training Time(s)    |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Sampling Method 1    | 0.6659               | 0.1197               | 97.06                | 1.0000               | 0.9990               | 2664.28                   |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Sampling Method 2    | 0.8321               | 0.1405               | 97.44                | 1.0000               | 1.0000               | 2668.08                   |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Testing Summary:
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Method               | Test Loss(CrossEntropy)   | Vali Loss(CrossEntropy)   | Test Accuracy        | Validation Accuracy  | Test Precision       | Validation Precision | Test F1-score        | Validation F1-score  | 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Sampling Method 1    | 0.1060                    | 0.1197                    | 97.73                | 97.06                | 0.9980               | 1.0000               | 0.9980               | 0.9990               |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Sampling Method 2    | 0.1369                    | 0.1405                    | 97.69                | 97.44                | 0.9990               | 1.0000               | 0.9985               | 1.0000               |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+#################### End ####################

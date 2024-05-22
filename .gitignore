@@ -1,0 +1,15 @@
+
+*.xml
+.idea/misc.xml
+*.iml
+*.iml
+*.pyc
+task2/data
+.idea
+task3/data
+*.meta
+task3/trained_models
+task2/trained_models
+*.pth
+task2/trained_models/vision_transformer_with_mixup_sampling_method_1.pth
+task2/trained_models/vision_transformer_with_mixup_sampling_method_2.pth
